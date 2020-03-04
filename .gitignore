@@ -1,2 +1,5 @@
 env/
 .idea/
+creds.json
+__pycache__/
+.pyc
