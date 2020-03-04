@@ -1,1 +1,2 @@
-firebase
+requests
+python-firebase
