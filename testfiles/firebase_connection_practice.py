@@ -6,5 +6,5 @@ if __name__ == "__main__":
         creds = json.load(file)
 
     firebase_obj = firebase.FirebaseApplication(creds['databaseURL'])
-
-
+    name = firebase_obj.get(creds['databaseURL'], 'user')
+    print(name)
