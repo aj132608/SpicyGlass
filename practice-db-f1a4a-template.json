@@ -1,0 +1,60 @@
+{
+  "users" : {
+    "michbish" :{
+      "email": "michael.bishop@ttu.edu",
+      "password": "blah",
+      "vehicle": ["vehicle1", "vehicle2"]
+    },
+    "alexJ" : {
+      "email": "alex.jirovsky@ttu.edu",
+      "password": "blah",
+      "vehicle": ""
+    }
+  },
+  "vehicles": {
+    "vehicle1": {
+      "description": {
+        "make" : "Nissan",
+        "model" : "Maxima",
+        "type" : "sedan",
+        "year" : "2007"
+      },
+      "states": {
+        "carLock" : true,
+        "seatHeater" : {
+          "bDriver" : false,
+          "bPass" : false,
+          "fDriver" : false,
+          "fPass" : false
+        },
+        "carOn" : true,
+        "defrost" : {
+          "back" : false,
+          "front" : false
+        }
+      }
+    },
+    "vehicle2":{
+      "description": {
+        "make": "Ford",
+        "model": "Focus",
+        "type": "sedan",
+        "year": "2000"
+      },
+      "states": {
+        "carLock" : true,
+        "seatHeater" : {
+          "bDriver" : false,
+          "bPass" : false,
+          "fDriver" : false,
+          "fPass" : false
+        },
+        "carOn" : true,
+        "defrost" : {
+          "back" : false,
+          "front" : false
+        }
+      }
+    }
+  }
+}
